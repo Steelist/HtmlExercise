@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lomake</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="Harjoitustyyli.css">
+	<link rel="stylesheet" type="text/css" href="Harjoitustyyli_medium.css">
+	<link rel="stylesheet" type="text/css" href="Harjoitustyyli_small.css">
+	<link rel="stylesheet" type="text/css" href="Harjoitustyyli_extraSmall.css">
+	<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="navigation">
+		<h1>EX NIHILO NIHIL FIT</h1>
+		
+		<div class="ham">
+		</div>
+
+		<nav class="nav">
+			<a href="Harjoitus.html">Etusivu</a>
+			<a class="current" href="Lomake.html">Lomake</a>
+			<a href="Taulukko.html">Taulukko</a>
+			<a href="#Laudantium">Laudantium</a>
+			<a href="#Qisque">Quisque</a>
+			<a href="#Venenatis">Venenatis</a>
+			<a href="#Dignissim">Dignissim</a>
+			<a href="#Ultrices">Ultrices</a>
+		</nav>
+	</div>
+	<div class="white">
+		<nav id="myDropdown">
+			<a class="current" href="Harjoitus.html">Etusivu</a>
+			<a href="Lomake.html">Lomake</a>
+			<a href="Taulukko.html">Taulukko</a>
+			<a href="#Laudantium">Laudantium</a>
+			<a href="#Qisque">Quisque</a>
+			<a href="#Venenatis">Venenatis</a>
+			<a href="#Dignissim">Dignissim</a>
+			<a href="#Ultrices">Ultrices</a>
+		</nav>
+		<div class="front">
+			<div class="left">
+				<nav class="navmed">
+					<a href="Harjoitus.html">Etusivu</a>
+					<a class="current" href="Lomake.html">Lomake</a>
+					<a href="Taulukko.html">Taulukko</a>
+					<a href="#Laudantium">Laudantium</a>
+					<a href="#Qisque">Quisque</a>
+					<a href="#Venenatis">Venenatis</a>
+					<a href="#Dignissim">Dignissim</a>
+					<a href="#Ultrices">Ultrices</a>
+				</nav>
+				<p>
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+				laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+				beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+				odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+				Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+				sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+				voluptatem? 
+				</p>
+			</div>
+		<div class="right">
+			<h2>Lomake</h2>
+			
+			<form>
+				<div class="row">
+					<div class="headForm">Sukunimesi:</div>
+						<div class="col">
+							<input type="text" name="sukunimi">
+						</div>
+				</div>
+				<div class="row">
+					<div class="headForm">Sukupuolesi:</div>
+						<div class="col" id="radio">
+							<input id="Mies" type="radio" name="sukupuoli" value="Mies"><label for="Mies">Mies</label><br>
+							<input id="Nainen" type="radio" name="sukupuoli" value="Nainen"><label for="Nainen">Nainen</label><br>
+							<input id="En_halua_sanoa" type="radio" name="sukupuoli" value="En halua sanoa"><label for="En_halua_sanoa">En halua sanoa</label>
+						</div>
+				</div>
+				<div class="row">
+					<div class="headForm">Autosi:</div>
+						<div class="col">
+							<select name="autot" id="autot">
+								<option value="Valitse">Valitse automerkkisi</option>
+								<option value="Lada">Lada</option>
+								<option value="Mosse">Mosse</option>
+								<option value="Volga">Volga</option>
+								<option value="Vartburg">Vartburg</option>
+								<option value="Ferrari">Ferrari</option>
+								<option value="Muu">Muu</option>
+							</select>
+						</div>
+							<div class="Muu">
+								<div class="headForm">Muu, mikä?</div> 
+								<div class="col"><input type="text" name="Muu"></div>
+							</div>
+				</div>
+				<div class="button">
+					<input type="submit" value="Lähetä" id="submit-button">
+				</div>
+			</form>
+		</div>
+		</div>
+	</div>
+	<div class="footer">
+		<ul class="footerTextOne">
+			<li><a href="#">1 Cras metus</a></li>
+			<li><a href="#">1 Sed aliquet risus</a></li>
+			<li><a href="#">1 Integer id quam</a></li>
+			<li><a href="#">1 Morbi mi</a></li>
+			<li><a href="#">1 Quisque nisl felis</a></li>
+			<li><a href="#">1 Venenatis tristique</a></li>
+			<li><a href="#">1 Dignissim in</a></li>
+			<li><a href="#">1 Ultrices sit amet</a></li>
+		</ul>
+		<ul class="footerTextTwo">
+			<li><a href="#">2 Cras metus</a></li>
+			<li><a href="#">2 Sed aliquet risus</a></li>
+			<li><a href="#">2 Integer id quam</a></li>
+			<li><a href="#">2 Morbi mi</a></li>
+			<li><a href="#">2 Quisque nisl felis</a></li>
+			<li><a href="#">2 Venenatis tristique</a></li>
+			<li><a href="#">2 Dignissim in</a></li>
+			<li><a href="#">2 Ultrices sit amet</a></li>
+		</ul>
+		<ul class="footerTextThree">
+			<li><a href="#">3 Cras metus</a></li>
+			<li><a href="#">3 Sed aliquet risus</a></li>
+			<li><a href="#">3 Integer id quam</a></li>
+			<li><a href="#">3 Morbi mi</a></li>
+			<li><a href="#">3 Quisque nisl felis</a></li>
+			<li><a href="#">3 Venenatis tristique</a></li>
+			<li><a href="#">3 Dignissim in</a></li>
+			<li><a href="#">3 Ultrices sit amet</a></li>
+		</ul>
+	</div>
+	<script>
+		$(document).ready(function() {
+			$(".ham").click(function(){
+				$("#myDropdown").slideToggle(function(){
+					if ($("#myDropdown").is(":visible")) {
+						$(".ham").css("background-image", "url('hamburgerYellow.png')");
+					} else {
+						$(".ham").removeAttr("style");
+					}
+				});
+			});
+			
+			$(window).resize(function() {
+				if ($(this).width() > 599) {
+					$("#myDropdown").removeAttr("style");
+				}
+			});
+			
+			$(window).resize(function() {
+				if ($(this).width() > 599) {
+					$(".ham").removeAttr("style");
+				}
+			});
+			
+			$('input[type="submit"]').click(function(e) {
+				e.preventDefault();
+				var valid = true;
+				
+				if ($('input[name="sukunimi"]').val().length < 3) {
+					$('input[name="sukunimi"]').addClass('error');
+					valid = false;
+				}
+				
+				if (!$('input[name="sukupuoli"]').is(':checked')) {
+					$('#radio').addClass('error');
+					valid = false;
+				}
+				
+				if ($('#autot').val() == 'Valitse') {
+					$('#autot').addClass('error');
+					valid = false;
+				}
+				
+				if ($('input[name="Muu"]').val().length<3 && $('input[name="Muu"]').is(':visible')){
+					$('input[name="Muu"]').addClass('error');
+					valid = false;
+				}
+				
+				if (valid) {
+					alert("Viesti lähetetty! Much wow.");
+				}
+			});
+			
+			$('input[name="sukunimi"]').on('input', function() {
+				if ($(this).val().length >= 3) {
+					$('input[name="sukunimi"]').removeClass('error');
+				}
+			});
+			
+			$('input[name="sukupuoli"]').change(function() {
+				if ($('input[name="sukupuoli').is(':checked')) {
+					$('#radio').removeClass('error');
+				}
+			});
+			
+			$('#autot').change(function() {
+				if ($('#autot').val != 'Valitse') {
+					$('#autot').removeClass('error');
+				}
+			});
+			
+			$('input[name="Muu"]').on('input', function(){
+				if ($(this).val().length >= 3){
+					$('input[name="Muu"]').removeClass('error');
+				}
+			});
+			
+			$('select[name="autot"]').change(function() {
+				var $fieldValue = $(this).val();
+				
+				if ($fieldValue == "Muu") {
+					$(".Muu").css("display", "block");
+				} else {
+					$(".Muu").css("display", "none");
+				}
+			});
+		});
+	</script>
+</body>
+</html>

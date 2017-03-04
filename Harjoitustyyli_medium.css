@@ -1,0 +1,100 @@
+@media screen and (max-width: 959px) {
+	h1 {
+		padding-top: 30px;
+	}
+	
+	h2 {
+		margin: 0 0 15px 0;
+	}
+
+	.navigation {
+		background-color: #c00;
+		margin: 0 auto;
+		font-family: 'Muli', sans-serif;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.navmed {
+		list-style-type: none;
+		display: block;
+	}
+
+	.navmed a{
+		margin: 0 4px 6px 4px;
+		border-bottom: 2px dashed orange;
+		border-left: 10px solid orange;
+		padding: 4px;
+		width: 80%;
+		height: 20px;
+	}
+
+	nav a {
+		display: block;
+		text-decoration: none;
+		background-color: white;
+		color: #900;
+	}
+	
+	nav a.current {
+		background-color: lightgrey;
+		border-left: 10px solid green;
+	}
+	
+	nav a:hover {
+		border-left: 10px solid green;
+		border-bottom: 2px dashed orange;
+		background-color: lightgrey;
+		color: #900;
+	}
+	
+	nav a:active {
+		background-color: orange;
+		color: white;
+	}
+	
+	nav a.current:active {
+		background-color: lightgrey;
+		border-left: 10px solid green;
+		color: #900;
+	}
+
+	.left {
+		width: 30%;
+		margin: 0;
+		padding: 0 2px 2px 2px;
+		display: inline-block;
+		box-sizing: border-box;
+	}
+
+	.right {
+		width: 70%;
+		margin: 0;
+		padding: 0 0 0 15px;
+		text-align: justify;
+		display: inline-block;
+		box-sizing: border-box;
+	}
+
+	.front {
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 10px;
+	}
+}
+
+@media screen and (max-width: 849px) {
+	.image {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 699px) {
+	.image {
+		display: none;
+	}
+}

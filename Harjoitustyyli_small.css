@@ -1,0 +1,121 @@
+@media screen and (max-width: 549px) {
+	h1 {
+		display: inline-block;
+		width: 80%;
+		font-size: 26px;
+		margin-top: 25px;
+		padding-top: 15px;
+	}
+	
+	.ham {
+		float: left;
+		display: inline-block;
+		width: 20%;
+		height: 100%;
+		text-align: center;
+		background-image: url("hamburger.png");
+		background-size: 50px 50px;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.ham:hover{
+		background-image: url("hamburgerYellow.png");
+	}
+	
+	.hamburger {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		position: relative;
+		margin-top: 25%;
+	}
+	
+	#myDropdown a {
+		margin: 6px 4px 6px 0;
+		padding: 2px;
+		border-bottom: 2px dashed;
+		border-left: 8px solid;
+		border-color: orange;
+		display: block;
+		color: #000;
+		text-decoration: none;
+		background-color: white;
+		color: #900;
+		font-family: 'Muli', sans-serif;
+	}
+	
+	#myDropdown a.current {
+		background-color: lightgrey;
+		border-left: 10px solid green;
+	}
+	
+	#myDropdown a:hover {
+		border-left: 10px solid green;
+		border-bottom: 2px dashed orange;
+		background-color: lightgrey;
+		color: #900;
+	}
+	
+	#myDropdown a:active {
+		background-color: orange;
+		color: white;
+	}
+	
+	#myDropdown a.current:active {
+		background-color: lightgrey;
+		border-left: 10px solid green;
+		color: #900;
+	}
+	
+	#ham:hover {
+		background: url("hamburgerYellow.png");
+		background-size: 50px 50px;
+	}
+	
+	.left {
+		display: none;
+	}
+	
+	.right {
+		border-left: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.image {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.image {
+		display: none;
+	}
+	
+	.headForm {
+		float: none;
+	}
+	
+	.row {
+		margin-top: 20px;
+		font-family: 'rajdhani', sans-serif;
+	}
+
+	.col {
+		margin-top: 10px;
+		margin-left: 0;
+	}
+	
+	.button {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 339px) {
+	h1 {
+		margin-top: 30px;
+		font-size: 20px;
+	}
+]
