@@ -1,3 +1,3 @@
 # HtmlExercise
 
-All the files included in the HTML project exercise.
+All the files included in a HTML project exercise.
